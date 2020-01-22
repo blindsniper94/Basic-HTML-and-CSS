@@ -1,5 +1,8 @@
 table{
 	border: 10px solid gold;
+	border-collapse: collapse;
+	 color: gold;
+    min-width: 10em;
 }
 td:hover{
 	background-color: Gray;
@@ -8,8 +11,10 @@ td:hover{
 tr,th{
 	background-color:black;
 	color: white;
+	 border: 1px solid gold;
 }
 tr,td{
-	background-color:darkgreen;
-	color:blue;
+	background-color: #666;
+	 border: 1px solid gold;
+    color: rgb(39, 3, 23);
 }
